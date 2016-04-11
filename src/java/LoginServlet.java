@@ -79,8 +79,8 @@ public class LoginServlet extends HttpServlet {
       String inputPassword = request.getParameter("password");
       
       //Pages to be redirected
-      String success = "/Account_activity.html";
-      String failure = "/Login_failure.html";
+      String success = "/Account_activity.jsp";
+      String failure = "/Login_failure.jsp";
       
       // Check if Username/Password are correct
       if (inputUsername.equals(testUsername) && inputPassword.equals(testPassword)) {

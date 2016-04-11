@@ -1,17 +1,7 @@
-<%-- 
-    Document   : New_customer
-    Created on : Mar 28, 2016, 2:25:15 PM
-    Author     : Nedreba
---%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>New Customer Sign Up</title>
-    </head>
-    
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:import url="/header.html"/>
+
         <h1>Titan Online Banking Application</h1>
             <h2>Sign Up</h2>
             <p><i>${message}</i></p>
@@ -34,5 +24,5 @@
                 <input type="email" name="userEmail"><br>
                 <input type="submit" value="Login">
             </form>
-    
-</html>
+<c:import url="/footer.jsp"/>
+
